@@ -39,3 +39,19 @@ A framework for mathematically calculating the probability of a certain decision
 - refered to as pi(s) -> a 
   - or the action that is taken given a certain state.
 - Pi* is the optimal solution to a MDP to maximize the Reward as a result.
+
+
+## More about Rewards
+
+|   |   |   |   |
+|---|---|---|---|
+| o | o | o | + |
+| o | x | o | - |
+| o | o | o | o |
+
+- `R(s) = -0.04`
+- `+` and `-` are terminating states which means the simulation ends.
+- `+` represents a reward of `R(+) = +1.0` 
+- `-` represents a reward of `R(+) = -1.0` 
+- `x` represents a state that cannot be acted on. (if an action with this as `s'` doesn't have any effect)
+- This is like you are at the beach and everywhere you go is hot sand. You live forever so you will either
