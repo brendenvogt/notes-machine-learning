@@ -1,14 +1,15 @@
 # Markov Decision Process
 A framework for mathematically calculating the probability of a certain decision process, and also for evaluating the cost and reward of a certain decision or decision processes.
-### The Marcovian Property
+[Click here for more info](https://www.geeksforgeeks.org/markov-decision-process/)
+## The Marcovian Property
 - Our transition function only depends on the present state `s`. If your transition function also depended on where you were at a prior state, your transition function would have to include more `s` as input. But this violates The Marcovian Property. 
 - You can bend the rules around the Marcovian Process by requiring state `s` to include all the past history of prior states. `s = s(s-1)` for example.
 - Another important requirement is that the world doesn't change, or in other words the transition function doesn't change.
+
 ## States 
 - States are distinct locations, circumstance, variables, that identify and describe something at a given point in time or condition of being. 
   - In the world of a grid. Different grid squares you can reach represents the reachable states, or for our discussion just simply states.
 - represented as `s`
-
 
 ## Model (transition model/ transition function)
 - Is a combination of a state
